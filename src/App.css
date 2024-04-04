@@ -1,0 +1,384 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.h1 {
+  height: 1px;
+}
+
+.h2 {
+  height: 2px;
+}
+
+.h3 {
+  height: 3px;
+}
+
+.h4 {
+  height: 4px;
+}
+
+.h5 {
+  height: 5px;
+}
+
+.h6 {
+  height: 6px;
+}
+
+.h7 {
+  height: 7px;
+}
+
+.h8 {
+  height: 8px;
+}
+
+.h9 {
+  height: 9px;
+}
+
+.h10 {
+  height: 10px;
+}
+
+.h11 {
+  height: 11px;
+}
+
+.h12 {
+  height: 12px;
+}
+
+.h13 {
+  height: 13px;
+}
+
+.h14 {
+  height: 14px;
+}
+
+.h15 {
+  height: 15px;
+}
+
+.h16 {
+  height: 16px;
+}
+
+.h17 {
+  height: 17px;
+}
+
+.h18 {
+  height: 18px;
+}
+
+.h19 {
+  height: 19px;
+}
+
+.h20 {
+  height: 20px;
+}
+
+.h21 {
+  height: 21px;
+}
+
+.h22 {
+  height: 22px;
+}
+
+.h23 {
+  height: 23px;
+}
+
+.h24 {
+  height: 24px;
+}
+
+.h25 {
+  height: 25px;
+}
+
+.h26 {
+  height: 26px;
+}
+
+.h27 {
+  height: 27px;
+}
+
+.h28 {
+  height: 28px;
+}
+
+.h29 {
+  height: 29px;
+}
+
+.h30 {
+  height: 30px;
+}
+
+.h31 {
+  height: 31px;
+}
+
+.h32 {
+  height: 32px;
+}
+
+.h33 {
+  height: 33px;
+}
+
+.h34 {
+  height: 34px;
+}
+
+.h35 {
+  height: 35px;
+}
+
+.h36 {
+  height: 36px;
+}
+
+.h37 {
+  height: 37px;
+}
+
+.h38 {
+  height: 38px;
+}
+
+.h39 {
+  height: 39px;
+}
+
+.h40 {
+  height: 40px;
+}
+
+.h41 {
+  height: 41px;
+}
+
+.h42 {
+  height: 42px;
+}
+
+.h43 {
+  height: 43px;
+}
+
+.h44 {
+  height: 44px;
+}
+
+.h45 {
+  height: 45px;
+}
+
+.h46 {
+  height: 46px;
+}
+
+.h47 {
+  height: 47px;
+}
+
+.h48 {
+  height: 48px;
+}
+
+.h49 {
+  height: 49px;
+}
+
+.h50 {
+  height: 50px;
+}
+
+.h60 {
+  height: 60px;
+}
+
+.h70 {
+  height: 70px;
+}
+
+.h80 {
+  height: 80px;
+}
+
+.h90 {
+  height: 90px;
+}
+
+.h100 {
+  height: 100px;
+}
+.h200 {
+  height: 200px;
+}
+
+.h300 {
+  height: 300px;
+}
+
+.h400 {
+  height: 400px;
+}
+
+.h500 {
+  height: 500px;
+}
+
+.h600 {
+  height: 600px;
+}
+
+.h700 {
+  height: 700px;
+}
+
+.h800 {
+  height: 800px;
+}
+
+.h900 {
+  height: 900px;
+}
+
+.h1000 {
+  height: 1000px;
+}
+
+
+
+.w1 {
+  width: 1%;
+}
+
+.w2 {
+  width: 2%;
+}
+
+.w3 {
+  width: 3%;
+}
+
+.w4 {
+  width: 4%;
+}
+
+.w5 {
+  width: 5%;
+}
+
+.w6 {
+  width: 6%;
+}
+
+.w7 {
+  width: 7%;
+}
+
+.w8 {
+  width: 8%;
+}
+
+.w9 {
+  width: 9%;
+}
+
+.w10 {
+  width: 10%;
+}
+.w20 {
+  width: 20%;
+}
+
+.w30 {
+  width: 30%;
+}
+
+.w40 {
+  width: 40%;
+}
+
+.w50 {
+  width: 50%;
+}
+
+.w60 {
+  width: 60%;
+}
+
+.w70 {
+  width: 70%;
+}
+
+.w80 {
+  width: 80%;
+}
+
+.w90 {
+  width: 90%;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.ff{font-family: 'Playfair Display', serif;}
+
+.fw1{
+  font-weight: 100;
+}
+.fw2{
+  font-weight: 200;
+}
+
+.fs{
+  font-size: 100px;
+}
