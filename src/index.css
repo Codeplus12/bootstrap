@@ -14,8 +14,9 @@ code {
 
 .bi{
   background-image: url(img/Alexandrina-BG.jpg);
-  background-position: center;
+  
   background-size: cover;
-  height: 800px;
+  background-attachment: fixed;
+  height: 1000px;
   width: 100%;
 }
