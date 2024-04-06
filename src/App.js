@@ -3,6 +3,9 @@ import { Row } from 'react-bootstrap';
 import {Col} from 'react-bootstrap';
 import {Button} from 'react-bootstrap';
 import {Container} from 'react-bootstrap';
+import Carousel from 'react-bootstrap/Carousel';
+
+
 
 function App() {
 return (
@@ -60,8 +63,60 @@ your audience.</p>
         <Row>
           <Col md={6} xs={12} >
             <div className="h20 w-100"></div>
-            <Col md={12} className='bg-ingo h300a'>
-              <img src="img/branding3.jpg" alt="" className='h-100 w-100'/>
+            <Col md={12} className='h300a'>
+              {/* TESTIMONIAL SLIDER===================================== */}
+              <Carousel data-bs-theme="dark">
+      <Carousel.Item className='h300a'>
+        <img
+          className="h-100 w-100"
+          src="img/branding2.jpg"
+          alt="First slide"
+        />
+        
+      </Carousel.Item>
+      <Carousel.Item className='h300a'>
+        <img
+          className="h-100 w-100"
+          src="img/branding3.jpg"
+          alt="Second slide"
+        />
+        
+      </Carousel.Item>
+      <Carousel.Item className='h300a'>
+        <img
+          className="h-100 w-100"
+          src="img/branding4.jpg"
+          alt="Third slide"
+        />
+        
+      </Carousel.Item>
+      <Carousel.Item className='h300a'>
+        <img
+          className="h-100 w-100"
+          src="img/packaging2.jpg"
+          alt="Third slide"
+        />
+        
+      </Carousel.Item>
+      <Carousel.Item className='h300a'>
+        <img
+          className="h-100 w-100"
+          src="img/packaging3.jpg"
+          alt="Third slide"
+        />
+        
+      </Carousel.Item>
+      <Carousel.Item className='h300a'>
+        <img
+          className="h-100 w-100"
+          src="img/printable.jpg"
+          alt="Third slide"
+        />
+        
+      </Carousel.Item>
+      
+    </Carousel>
+    {/* TESTIMONIAL SLIDER END========================================== */}
             </Col>
           </Col>
           <Col md={6} xs={12} >
