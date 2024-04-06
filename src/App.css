@@ -257,6 +257,7 @@
 .h100 {
   height: 100px;
 }
+
 .h200 {
   height: 200px;
 }
@@ -373,6 +374,15 @@
   width: 100%;
 }
 
+
+.bg1{
+  background: rgb(249, 231, 231);
+}
+
+.br{
+  border:1px solid black
+}
+
 .ff{font-family: 'Playfair Display', serif;}
 
 .fw1{
@@ -403,12 +413,149 @@
   font-weight: 900;
 }
 
-.fs{
-  font-size: 100px;
+
+.fs1{
+  font-size: 24px;
 }
 
-.p{
+.fs2{
+  font-size: 33px;
+}
+.fs3{
+  font-size: 18px;
+}
+
+
+.bt1{
+  height: 60px;
+  width: 100%;
+  background: rgb(249, 231, 231);
+  border: 2px solid black;
+  color: black;
+}
+.bt1:hover{
+  height: 60px;
+  width: 100%;
+  background: rgb(255, 191, 185);
+  border: 2px solid black;
+  color: black;
+}
+
+.bt2{
+  height: 60px;
+  width: 100%;
+  background: black;
+  border: 2px solid black;
+  color: white;
+}
+.bt2:hover{
+  height: 60px;
+  width: 100%;
+  background: rgb(255, 191, 185);
+  border: 2px solid black;
+  color: black;
+}
+
+
+
+
+/* media query start============================================================= */
+
+
+.w60a {
+  width: 90%;
+}
+.w10a {
+  width: 13%;
+}
+
+.h110a {
+  height: 110px;
+}
+.h200a {
+  height: 200px;
+}
+.h300a {
+  height: 300px;
+}
+
+
+.fs1a{
+  font-size: 100px;
+}
+.fs2a{
+  font-size: 33px;
+}
+
+.pa{
   position: absolute;
   top: 50px;
-  left: 200px;
+  left: 190px;
 }
+
+
+@media(max-width:500px){
+
+  .w60a {
+    width: 35%;
+  }
+  .w10a {
+    width: 30%;
+  }
+
+  .h110a {
+    height: 120px;
+  }
+  .h200a {
+    height: 300px;
+  }
+  .h300a {
+    height: 400px;
+  }
+
+  .fs1a{
+    font-size: 45px;
+  }
+  .fs2a{
+    font-size: 25px;
+  }
+  .pa{
+    position: absolute;
+    top: 40px;
+    left: 260px;
+  }
+
+}
+
+
+
+/* TESTIMONIAL SLIDER CSS */
+
+/* body {
+  background: aliceblue;
+  } */
+  /* .section-padding{
+  padding:60px 0;
+  }
+  .brand-carousel {
+  background: aliceblue;
+  margin-top: 15%;
+  }
+  .owl-dots {
+  text-align: center;
+  margin-top: 4%;
+  }
+  .owl-dot {
+  display: inline-block;
+  height: 15px !important;
+  width: 15px !important;
+  background-color: #878787 !important;
+  opacity: 0.8;
+  border-radius: 50%;
+  margin: 0 5px;
+  }
+  .owl-dot.active {
+  background-color: #000 !important;
+  }
+   */
+
